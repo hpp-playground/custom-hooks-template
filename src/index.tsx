@@ -11,7 +11,7 @@ export const useMyHook = () => {
     let interval = window.setInterval(() => {
       counter++;
       setState({ counter });
-    }, 100);
+    }, 1000);
     return () => {
       window.clearInterval(interval);
     };

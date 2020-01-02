@@ -5,10 +5,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "custom-hooks-template": "link:..",
     "react": "link:../node_modules/react",
-    "react-dom": "^16.9.0",
-    "react-scripts": "^3.0.1",
-    "custom-hooks-template": "link:.."
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
